@@ -1,8 +1,8 @@
-# Test Project For Software Developer(Support Ticket System)
+# Test Project For Software Developer(Expense Tracker with Monthly Report)
 
 ## Overview
 
-Design a lightweight Support Ticket System for a startup.The system should allow users to submit tickets, and admins to manage them.
+A lightweight Expense Tracker that lets users record and manage daily expenses, with automatic monthly reports showing totals, breakdowns, and trends..
 
 
 ## Setup Instructions
@@ -37,23 +37,25 @@ Design a lightweight Support Ticket System for a startup.The system should allow
     ```bash
     http://localhost/(your project folder)
     ```
-10.  **Admin Login Credentials:**
-    Admin Email: admin@gmail.com
+10.  **User Login Credentials:**
+    Email: demo_user_one@gmail.com
     Password: 12345678
-11.  **Customer Login Credentials:**
-    Customer Email: customer@gmail.com
+    Email: demo_user_two@gmail.com
     Password: 12345678
+
 
 ## Accessing the Application
 
-* **Admin Users:** Admin users can log in through the `/login` page using their credentials.
-    Upon successful login, they are redirected to the Admin Panel where they can manage All Ticket (create Ticket,Update Ticket Status).
-* **Customer Registration:** If a user does not have an account yet, they can visit the `/register` page to    create one.After registering and logging in, they will gain access to the Customer Panel, where they can:
+- **Login**
+  - Visit `/login` to sign in using your credentials
+  - After login, you’ll be redirected to the **User Panel** where you can:
+    - Create and manage daily expenses
+    - View the current monthly report
+    - Analyze expenses with a pie chart
 
-     View their own Ticket List
-
-     Create new tickets
-
-     Track the history of their submitted tickets
-
-     Check the current status of each ticket.
+- **Registration**
+  - New users can visit `/register` to create an account
+  - After registering and logging in, you’ll have access to:
+    - Add daily expenses
+    - Generate monthly reports
+    - Visualize expenses with a pie chart
